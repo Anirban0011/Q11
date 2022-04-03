@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" ,initial scale="1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/b_AllSoulsquad.jpg?itok=tTcH-5ix);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+      nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav img {
+        width: 120px;
+      }
+      .nav-links {
+        flex: 1;
+        text-align: right;
+      }
+      .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+      }
+      .nav-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      .nav-links ul li::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #36f482;
+        display: block;
+        margin: auto;
+      }
+      .nav-links ul li:hover::after {
+        width: 100%;
+        transition: 0.5s;
+      }
+      .text-box {
+        width: 90%;
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text-box h1 {
+        font-size: 62px;
+      }
+      .text-box p {
+        margin: 10px 0 40px;
+        font-size: 16px;
+        color: #fff;
+      }
+      .hero-btn {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+      }
+      .hero-btn:hover {
+        border: solid 1px #36f4f1;
+        background: #36f4f1;
+        transition: 1s;
+      }
+      .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .cta {
+        margin: 100px auto;
+        width: 80%;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(https://i.postimg.cc/T3MSSy7F/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+      }
+
+      .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+      }
+      .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+
+      .icons img {
+        width: 20px;
+        height: 20px;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+      }
+      .sub-header {
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://i.postimg.cc/yNVQ9xTZ/background.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+      }
+      .sub-header h1 {
+        margin-top: 100px;
+      }
+      .about-us {
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+      }
+      .about-col {
+        flex-basis: 48%;
+        padding: 30px 2px;
+      }
+      .about-col {
+        width: 100%;
+      }
+      .about-col h1 {
+        padding-top: 0;
+      }
+      .about-col p {
+        padding: 15px 0 25px;
+      }
+      .about-col img {
+        max-width: 509px;
+        max-height: 339px;
+      }
+      .green-btn {
+        border: 1px solid #36f4a5;
+        background: transparent;
+        color: #36f488;
+      }
+      .green-btn:hover {
+        color: #fff;
+      }
+    </style>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"
+          ><img
+            src="https://xyzuniversity.com/wp-content/uploads/2018/06/XYZUniversity_Logo.png"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="academics.html">ACADEMICS</a></li>
+            <li><a href="students.html">STUDENTS</a></li>
+            <li><a href="facilitiesxyz.html">FACILITIES</a></li>
+            <li><a href="outreach.html">OUTREACH</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Gallery</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <img
+            src="https://www.panolian.com/wp-content/uploads/sites/40/2021/04/www.usnews.jpg"
+            alt=""
+          />
+        </div>
+        <div class="about-col">
+          <img
+            src="https://media.istockphoto.com/photos/university-student-back-to-school-picture-id1301419026?b=1&k=20&m=1301419026&s=170667a&w=0&h=-AX5bbCEBbAITJTNjW3YzLYI5xaQmgjqpdhw-wqugWM="
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col">
+          <img
+            src="https://thumbs.dreamstime.com/b/college-students-books-smiling-to-camera-over-grey-wall-having-break-155809721.jpg"
+            alt=""
+          />
+        </div>
+        <div class="about-col">
+          <img
+            src="https://static8.depositphotos.com/1008303/880/i/600/depositphotos_8803246-stock-photo-asian-college-student.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        The XYZ community is driven by a shared purpose: to make a better world
+        through education, research, and innovation.
+      </p>
+      <div class="icons">
+        <img
+          src="https://image.similarpng.com/very-thumbnail/2021/01/Facebook-icon-design-on-transparent-background-PNG.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        />
+        <img
+          src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png"
+        />
+      </div>
+      <p><i>(Made with ❤ by IT Cell, XYZ UNIVERSITY)</i></p>
+    </section>
+  </body>
+</html>

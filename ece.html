@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" ,initial scale="1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Department Of Electronics & Communication Engineering</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/b_AllSoulsquad.jpg?itok=tTcH-5ix);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+      nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav img {
+        width: 120px;
+      }
+      .nav-links {
+        flex: 1;
+        text-align: right;
+      }
+      .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+      }
+      .nav-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      .nav-links ul li::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #36f482;
+        display: block;
+        margin: auto;
+      }
+      .nav-links ul li:hover::after {
+        width: 100%;
+        transition: 0.5s;
+      }
+      .text-box {
+        width: 90%;
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text-box h1 {
+        font-size: 62px;
+      }
+      .text-box p {
+        margin: 10px 0 40px;
+        font-size: 16px;
+        color: #fff;
+      }
+      .hero-btn {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+      }
+      .hero-btn:hover {
+        border: solid 1px #36f4f1;
+        background: #36f4f1;
+        transition: 1s;
+      }
+      .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .cta {
+        margin: 100px auto;
+        width: 80%;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(https://wallpaperaccess.com/full/1428481.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+      }
+
+      .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+      }
+      .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+
+      .icons img {
+        width: 20px;
+        height: 20px;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+      }
+      .sub-header {
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://wallpaperaccess.com/full/1579976.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+      }
+      .sub-header h1 {
+        margin-top: 100px;
+      }
+      .about-us {
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+      }
+
+      .about-col {
+        width: 100%;
+      }
+      .about-col h1 {
+        padding-top: 0;
+      }
+
+      .about-col img {
+        max-width: 90%;
+        max-height: 90%;
+      }
+
+      .green-btn {
+        border: 1px solid #36f4a5;
+        background: transparent;
+        color: #36f488;
+      }
+      .green-btn:hover {
+        color: #fff;
+      }
+    </style>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"
+          ><img
+            src="https://xyzuniversity.com/wp-content/uploads/2018/06/XYZUniversity_Logo.png"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="academics.html">ACADEMICS</a></li>
+            <li><a href="students.html">STUDENTS</a></li>
+            <li><a href="facilitiesxyz.html">FACILITIES</a></li>
+            <li><a href="outreach.html">OUTREACH</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Department Of Electronics & Communication Engineering</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>About Us</h1>
+          <br />
+          <p>
+            The discipline of EE has been striving towards providing a vibrant
+            atmosphere for students in diverse areas of Electrical Engineering.
+            Its programs are designed to prepare students for technical
+            excellence. XYZ has a fractal system of education where a fractal
+            segment is two and a half week long and there are 6 fractal segment
+            in a semester. Students are exposed to an area through course
+            typically covering over one or two fractal segment while full
+            semester courses take students to the depth of the course. The
+            program structure provides freedom to a student to choose elective
+            courses in areas of interest from his/her own department or from
+            another department.
+            <br />
+          </p>
+
+          <h1>Faculty</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col">
+          <h3>Dr. Nemeon Pera</h3>
+          <img src="https://i.postimg.cc/WbFgPGwX/image-7.jpg" />
+        </div>
+        <div class="about-col">
+          <h3>Dr. Roman Heyamann</h3>
+          <img src="https://i.postimg.cc/NFWy0nkb/image-8.jpg" />
+        </div>
+        <div class="about-col">
+          <h3>Dr. Haneka Revolter</h3>
+          <img src="https://i.postimg.cc/d1hrtGKs/image-9.jpg" />
+          <br />
+        </div>
+      </div>
+      <br />
+      <h1>Timetable</h1>
+      <div class="row">
+        <div class="about-col">
+          <br />
+          <a
+            href="https://www.ustm.ac.in/wp-content/uploads/2022/01/UG-5TH-SEM-EXAM-TIME-TABLE-2021-22.pdf"
+            class="hero-btn green-btn"
+            >View UG Timetable</a
+          >
+        </div>
+        <div class="about-col">
+          <br />
+          <a
+            href="https://www.loretocollege.in/loretocollege/timetable/2_Sem-2.pdf"
+            class="hero-btn green-btn"
+            >View PG TimeTable</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        The XYZ community is driven by a shared purpose: to make a better world
+        through education, research, and innovation.
+      </p>
+      <div class="icons">
+        <img
+          src="https://image.similarpng.com/very-thumbnail/2021/01/Facebook-icon-design-on-transparent-background-PNG.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        />
+        <img
+          src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png"
+        />
+      </div>
+      <p><i>(Made with ❤ by IT Cell, XYZ UNIVERSITY)</i></p>
+    </section>
+  </body>
+</html>

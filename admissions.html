@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" ,initial scale="1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Admissions</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/s3/field/field_image_main/b_AllSoulsquad.jpg?itok=tTcH-5ix);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+      nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav img {
+        width: 120px;
+      }
+      .nav-links {
+        flex: 1;
+        text-align: right;
+      }
+      .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+      }
+      .nav-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      .nav-links ul li::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #36f482;
+        display: block;
+        margin: auto;
+      }
+      .nav-links ul li:hover::after {
+        width: 100%;
+        transition: 0.5s;
+      }
+      .text-box {
+        width: 90%;
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text-box h1 {
+        font-size: 62px;
+      }
+      .text-box p {
+        margin: 10px 0 40px;
+        font-size: 16px;
+        color: #fff;
+      }
+      .hero-btn {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+      }
+      .hero-btn:hover {
+        border: solid 1px #36f4f1;
+        background: #36f4f1;
+        transition: 1s;
+      }
+      .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .cta {
+        margin: 100px auto;
+        width: 80%;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(https://i.postimg.cc/T3MSSy7F/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+      }
+
+      .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+      }
+      .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+
+      .icons img {
+        width: 20px;
+        height: 20px;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+      }
+      .sub-header {
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(https://i.postimg.cc/yNVQ9xTZ/background.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+      }
+      .sub-header h1 {
+        margin-top: 100px;
+      }
+      .about-us {
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+      }
+      .about-col {
+        flex-basis: 48%;
+        padding: 30px 2px;
+      }
+      .about-col {
+        width: 100%;
+      }
+      .about-col h1 {
+        padding-top: 0;
+      }
+      .about-col p {
+        padding: 15px 0 25px;
+      }
+      .green-btn {
+        border: 1px solid #36f4a5;
+        background: transparent;
+        color: #36f488;
+      }
+      .green-btn:hover {
+        color: #fff;
+      }
+    </style>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"
+          ><img
+            src="https://xyzuniversity.com/wp-content/uploads/2018/06/XYZUniversity_Logo.png"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="academics.html">ACADEMICS</a></li>
+            <li><a href="students.html">STUDENTS</a></li>
+            <li><a href="facilitiesxyz.html">FACILITIES</a></li>
+            <li><a href="outreach.html">OUTREACH</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Admissions</h1>
+    </section>
+    <section class="about-us">
+        <center>
+            <h1>
+                STUDENT REGISTRATION
+            </h1>
+            <HR/ color="wheat" style="margin:0px;">
+        </center>
+        <br />
+        <form onsubmit="myFunction()"></element>
+    
+            <label > First Name : </label>
+            <input type="text" name="firstname" placeholder="Enter First Name" class="m" required> <br> <br>
+            <label> Last Name : </label>
+            <input type="text" name="lastname"placeholder="Enter Last Name"  class="m"required> <br> <br>
+    
+            <label style="margin-left: auto;">
+                Course : 
+            </label>
+            <select class="m" style="margin-left: 20px;"required>
+                <option value="Course">Course</option>
+                <option value="B.Tech">B.Tech(CSE)</option>
+                <option value="BBA">B.Tech(ECE)</option>
+                <option value="BA">B.Tech(DSAI)</option>
+    
+                <option value="MBA">MBA</option>
+                <option value="MCA">PHD</option>
+                <option value="M.Tech">M.Tech</option>
+            </select>
+    
+            <br>
+            <br>
+            <label>
+            Gender : 
+            </label>
+            <input type="radio" name="Gender" /> Male 
+            <input type="radio" name="Gender" /> Female 
+            <input type="radio" name="Gender" /> Other
+            <br>
+            <br>
+    
+            <label>
+            Phone : 
+            </label>
+            <input type="text" name="country code" value="+91" size="1" class="m"required>
+            <input type="text" name="phone" size="0px" class="m" placeholder="Enter Phone Number" required> <br> <br>
+            Address :
+            <br>
+            <textarea cols="80" rows="5" value="address " class="m" style="margin-top: 10px;" required> 
+            </textarea>
+            <br> <br>
+            Email : 
+            <input type="email" id="email" name="email" class="m" placeholder="Enter your E-mail"required> <br>
+            <br> 
+            Password:
+            <input type="Password" id="pass" name="pass" class="m" placeholder="Enter your Password" required> <br>
+            <br> 
+    
+            <button type="submit" class="L" style="margin-left: 30px;">SUBMIT</button>
+            <script>
+                function myFunction() {
+                  alert("The form was submitted");
+                }
+                </script>
+        </form>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        The XYZ community is driven by a shared purpose: to make a better world
+        through education, research, and innovation.
+      </p>
+      <div class="icons">
+        <img
+          src="https://image.similarpng.com/very-thumbnail/2021/01/Facebook-icon-design-on-transparent-background-PNG.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        />
+        <img
+          src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png"
+        />
+      </div>
+      <p><i>(Made with ❤ by IT Cell, XYZ UNIVERSITY)</i></p>
+    </section>
+  </body>
+</html>
